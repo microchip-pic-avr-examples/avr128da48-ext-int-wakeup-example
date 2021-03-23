@@ -1,8 +1,8 @@
-<a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300"/></a>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# AVR128DA48 External Interrupt Wake Up Code Example
+# GPIO External Interrupt Wake-up
 
-This repository provides an Atmel Studio solution with a bare metal code example for an external interrupt wake up. In the main loop, the program starts by entering the CPU in Sleep Mode. When the button is pressed, the CPU wakes up and blinks the LED. After those operations, the CPU returns to Sleep Mode.
+This repository provides a Microchip Studio solution with a bare metal code example for an external interrupt wake up. In the main loop, the program starts by entering the CPU in Sleep Mode. When the button is pressed, the CPU wakes up and blinks the LED. After those operations, the CPU returns to Sleep Mode.
 
 ## Related Documentation
 More details and code examples on the AVR128DA48 can be found at the following links:
@@ -12,7 +12,7 @@ More details and code examples on the AVR128DA48 can be found at the following l
 
 
 ## Software Used
-- Atmel Studio 7.0.2397 or newer [(microchip.com/mplab/avr-support/atmel-studio-7)](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- Microchip Studio 7.0.2397 or newer [(Microchip Studio for AVR® and SAM Devices)](https://www.microchip.com/en-us/development-tools-tools-and-software/microchip-studio-for-avr-and-sam-devices)
 - AVR-Dx 1.0.18 or newer Device Pack
 
 
@@ -36,7 +36,7 @@ The following configurations must be made for this project:
 
 ## Operation
 
-1. Open the *AVR_DA_WakeUp.atsln* solution in Atmel Studio
+1. Open the *AVR_DA_WakeUp.atsln* solution in Microchip Studio
 
 2. Build the solution: right click on *AVR_DA_WakeUp.atsln* solution and select Build
 <br><img src="images/AVR-DA_ext_int_build.png" width="500">

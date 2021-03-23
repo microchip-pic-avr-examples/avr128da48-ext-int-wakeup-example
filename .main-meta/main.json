@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-ext-int-wakeup-example",
         "version": "1.0.2",
-        "displayName": "External Interrupt Wake-up",
+        "displayName": "GPIO External Interrupt Wake-up",
         "projectName": "avr128da48-ext-int-wakeup-example",
         "shortDescription": "This repository contains a Microchip Studio source code example for how use an external interrupt to wake-up the device from sleep",
         "ide": {
@@ -20,7 +20,7 @@
 		],
         "dfp": {
             "name": "AVR-Dx",
-            "semverRange": "1.6.88"
+            "semverRange": "^1.6.88"
         },
         "configurator": {
             "name": "N/A",
@@ -40,17 +40,16 @@
         "subcategories": [
             [
                 "Peripherals",
-                "Sleep Control"
+                "PORT"
             ]
         ],
         "peripherals": [
-            "Sleep Control"
+            "PORT"
         ],
         "keywords": [
             "LED blink",
             "Wake-up",
-            "External Interrupt",
-            "Sleep"
+            "Low Power"
         ],
 		"additionalData": {
 			"longDescription": {
